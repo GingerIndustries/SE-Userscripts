@@ -60,7 +60,7 @@ let allPronouns = [
   "him", "his",
   "she", "her?", // that covers 'he' as well
   "they", "them", "their",
-  "ze", "hir", "zir",
+  "ze", "xe", "hir", "zir",
   "xey", "xem", "xyr"
 ].join("|");
 let pronounListRegex = new RegExp('\\W*((' + allPronouns + ')(\\s*/\\s*(' + allPronouns + '))+)\\W*', 'i');
